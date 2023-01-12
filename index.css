@@ -1,42 +1,109 @@
-*body{
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
 }
-.nav {
-    display: flex;
+.head {
+    font-size: 30px;
+    margin-top: 10px;
 }
-.nav a{
+
+body {
+    padding-right: 10px;
+}
+
+hr {
+    margin-top: 2px;
+}
+
+
+
+.box1 {
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: rgb(225, 233, 235);
+    width: 110px;
+    margin-top: 10px;
+}
+
+.list {
+    padding: 0px 10px;
+}
+
+a {
     text-decoration: none;
-    padding: 20px;
 }
-.nav a:hover{
-    text-decoration: underline;
+
+span {
+    font-size: 21px;
+    padding-right: 10px;
 }
-.section a{
-    text-decoration: none;
+
+.sq {
+    font-size: 13px;
 }
-.section a:hover{
-    text-decoration: underline;
+
+sup {
+    font-size: 10px;
 }
-.section{
+.nv1 ul {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
-.card{ 
-    margin-left: 20px;
-    width: 150px;
+
+.nv1 ul li {
+    list-style: none;
+    margin: 0 5px;
+    font-size: smaller;
+    font-weight: 80;
+    color: rgb(61, 61, 61);
 }
-.about{
-    margin-left: 1000px;
-   
+.nv2{
+    background-image: linear-gradient(to top, rgba(199, 196, 196, 0.726), rgba(230, 231, 235, 0.062));
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.about img{
-    height: 90px;
-    widht: 20px;
+.nv2 ul {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
 }
-.container3{
-    margin-left: 20px;
-    margin-top: 20px;
+
+.nv2 ul li {
+    list-style: none;
+    margin: 0 5px;
+    font-size: small;
+    font-weight: 100;
+    color: rgb(53, 53, 53);
+}
+.table1{
+    border: 1px solid gray;
+    background-color: rgba(199, 196, 196, 0.726);
+    font-size:  small;
+    width: 250px;
+    margin: 5px;
+    float: right;
+}
+th,td{
+    padding: 5px;
+}
+.box2{
+    border: 1px gray;
+    border-style: none solid none none;
+    background-color: rgba(199, 196, 196, 0.726);
+    float: left;
+    width: 200px;
+    height: 1000px;
+    margin-right: 20px;
+}
+.container{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.right-table{
+    list-style: none;
+    padding: 10px;
 }
 .aff{
     display: flex;
