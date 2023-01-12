@@ -1,0 +1,50 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+}
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.section a{
+    text-decoration: none;
+}
+.section a:hover{
+    text-decoration: underline;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{ 
+    margin-left: 20px;
+    width: 150px;
+}
+.about{
+    margin-left: 1000px;
+   
+}
+.about img{
+    height: 90px;
+    widht: 20px;
+}
+.container3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.aff{
+    display: flex;
+    max-width: 70%;
+    margin: 30px;
+}
+.aff img{
+    height: 200px;
+    width: 300px;
+    padding-right: 20px;
+}
